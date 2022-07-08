@@ -1,0 +1,22 @@
+{
+  "name": "paytron-custom-categories",
+  "version": "0.1.0",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/luxon": "^2.3.2",
+    "@types/node": "10.17.27",
+    "ts-node": "^10.8.1",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.118.1",
+    "aws-sdk": "^2.1166.0",
+    "ksuid": "^3.0.0",
+    "luxon": "^2.4.0"
+  }
+}
