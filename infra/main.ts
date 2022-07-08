@@ -5,7 +5,7 @@ import { PetStack } from './stacks/pets/stack';
 const appName = 'testing';
 
 const app = new App();
-const baseStack = new BaseStack(app, appName);
+const baseStack = new BaseStack(app, `${appName}Base`);
 
 const props = {
   table: baseStack.table,
